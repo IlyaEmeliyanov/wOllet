@@ -11,14 +11,28 @@
 		09B5E18A282666BB00D220F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5E189282666BB00D220F0 /* ContentView.swift */; };
 		09B5E18C282666BC00D220F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B5E18B282666BC00D220F0 /* Assets.xcassets */; };
 		09B5E18F282666BC00D220F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B5E18E282666BC00D220F0 /* Preview Assets.xcassets */; };
+		09B5E1A32826961A00D220F0 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B5E1A22826961A00D220F0 /* PaymentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09B5E184282666BB00D220F0 /* PaymentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B5E184282666BB00D220F0 /* wOllet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wOllet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B5E187282666BB00D220F0 /* PaymentAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAppApp.swift; sourceTree = "<group>"; };
 		09B5E189282666BB00D220F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09B5E18B282666BC00D220F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B5E18E282666BC00D220F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09B5E19628266E3200D220F0 /* AvenirLTProBookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBookOblique.otf; sourceTree = "<group>"; };
+		09B5E19728266E3200D220F0 /* AvenirLTProOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProOblique.otf; sourceTree = "<group>"; };
+		09B5E19828266E3200D220F0 /* AvenirLTProBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBlack.otf; sourceTree = "<group>"; };
+		09B5E19928266E3200D220F0 /* AvenirLTProLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProLight.otf; sourceTree = "<group>"; };
+		09B5E19A28266E3200D220F0 /* AvenirLTProMediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProMediumOblique.otf; sourceTree = "<group>"; };
+		09B5E19B28266E3200D220F0 /* AvenirLTProBlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBlackOblique.otf; sourceTree = "<group>"; };
+		09B5E19C28266E3200D220F0 /* AvenirLTProHeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProHeavyOblique.otf; sourceTree = "<group>"; };
+		09B5E19D28266E3200D220F0 /* AvenirLTProRoman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProRoman.otf; sourceTree = "<group>"; };
+		09B5E19E28266E3200D220F0 /* AvenirLTProMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProMedium.otf; sourceTree = "<group>"; };
+		09B5E19F28266E3200D220F0 /* AvenirLTProHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProHeavy.otf; sourceTree = "<group>"; };
+		09B5E1A028266E3200D220F0 /* AvenirLTProLightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProLightOblique.otf; sourceTree = "<group>"; };
+		09B5E1A128266E3200D220F0 /* AvenirLTProBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLTProBook.otf; sourceTree = "<group>"; };
+		09B5E1A22826961A00D220F0 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +57,7 @@
 		09B5E185282666BB00D220F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09B5E184282666BB00D220F0 /* PaymentApp.app */,
+				09B5E184282666BB00D220F0 /* wOllet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +65,12 @@
 		09B5E186282666BB00D220F0 /* PaymentApp */ = {
 			isa = PBXGroup;
 			children = (
+				09B5E19528266E2000D220F0 /* Fonts */,
 				09B5E187282666BB00D220F0 /* PaymentAppApp.swift */,
 				09B5E189282666BB00D220F0 /* ContentView.swift */,
 				09B5E18B282666BC00D220F0 /* Assets.xcassets */,
 				09B5E18D282666BC00D220F0 /* Preview Content */,
+				09B5E1A22826961A00D220F0 /* PaymentView.swift */,
 			);
 			path = PaymentApp;
 			sourceTree = "<group>";
@@ -65,6 +81,25 @@
 				09B5E18E282666BC00D220F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09B5E19528266E2000D220F0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				09B5E19828266E3200D220F0 /* AvenirLTProBlack.otf */,
+				09B5E19B28266E3200D220F0 /* AvenirLTProBlackOblique.otf */,
+				09B5E1A128266E3200D220F0 /* AvenirLTProBook.otf */,
+				09B5E19628266E3200D220F0 /* AvenirLTProBookOblique.otf */,
+				09B5E19F28266E3200D220F0 /* AvenirLTProHeavy.otf */,
+				09B5E19C28266E3200D220F0 /* AvenirLTProHeavyOblique.otf */,
+				09B5E19928266E3200D220F0 /* AvenirLTProLight.otf */,
+				09B5E1A028266E3200D220F0 /* AvenirLTProLightOblique.otf */,
+				09B5E19E28266E3200D220F0 /* AvenirLTProMedium.otf */,
+				09B5E19A28266E3200D220F0 /* AvenirLTProMediumOblique.otf */,
+				09B5E19728266E3200D220F0 /* AvenirLTProOblique.otf */,
+				09B5E19D28266E3200D220F0 /* AvenirLTProRoman.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +119,7 @@
 			);
 			name = PaymentApp;
 			productName = PaymentApp;
-			productReference = 09B5E184282666BB00D220F0 /* PaymentApp.app */;
+			productReference = 09B5E184282666BB00D220F0 /* wOllet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B5E18A282666BB00D220F0 /* ContentView.swift in Sources */,
+				09B5E1A32826961A00D220F0 /* PaymentView.swift in Sources */,
 				09B5E188282666BB00D220F0 /* PaymentAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +215,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -195,6 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -239,6 +277,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -249,6 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,8 +320,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaemeliyanov.PaymentApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaemeliyanov.wOllet;
+				PRODUCT_NAME = wOllet;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,8 +349,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaemeliyanov.PaymentApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyaemeliyanov.wOllet;
+				PRODUCT_NAME = wOllet;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
